@@ -28,7 +28,7 @@ For example, PasteCommand supports pasting text from the clipboard into a Docume
 OpenCommand's Execute operation is different: it prompts the user for a document name, creates a corresponding Document object, adds the document to the receiving application, and opens the document.
 
 
-	Homework
+# Homework
 If you click the + button, the count value in the Counter is incremented (from 4 to 5), and the TextFrame shows the value 5, the RectFrame shows a rectangle of 5 by 5, and the OvalFrame shows a circle with diameter 5. If you click the - button, the count value in the Counter is decremented (from 5 to 4), etc.
 We want to add Undo/Redo functionality to this small counter application. So we add an Undo and a Redo button.
 	
@@ -42,11 +42,9 @@ We want to add Undo/Redo functionality to this small counter application. So we 
 	then -, then undo, then undo) together with the Observer pattern.
 	
 
-	Lab
+# Lab
+![Command Laborator](https://github.com/itimotin/AdvancedSD_Pattern_Command/blob/master/CommandLab.png)
 	
-	<img src="CommandLab.png"
-	     alt="CommandLab icon"
-	     style="float: left; margin-right: 10px;" />
 We want to add undo/redo functionality for the methods deposit(), withdraw() and transferFunds().
 	
 	a. Draw the modified class diagram with the command pattern applied.
