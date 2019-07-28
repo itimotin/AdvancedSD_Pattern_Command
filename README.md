@@ -29,6 +29,7 @@ OpenCommand's Execute operation is different: it prompts the user for a document
 
 
 # Homework
+![Command Pattern Homework](https://github.com/itimotin/AdvancedSD_Pattern_Command/blob/master/CommandPatternHW.png)
 If you click the + button, the count value in the Counter is incremented (from 4 to 5), and the TextFrame shows the value 5, the RectFrame shows a rectangle of 5 by 5, and the OvalFrame shows a circle with diameter 5. If you click the - button, the count value in the Counter is decremented (from 5 to 4), etc.
 We want to add Undo/Redo functionality to this small counter application. So we add an Undo and a Redo button.
 	
